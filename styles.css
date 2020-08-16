@@ -1,0 +1,54 @@
+body {
+    height: 630px;
+    width: 1339px;
+    /*border: 2px dotted black;*/
+}
+
+main {
+    height: 630px;
+    width: 1139px;
+    margin: 0 auto;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+.sandwich {
+    height: 150px;
+    width: 1339px;
+}
+
+img {
+    display: block;
+    width: 272px; 
+    height: 92px;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    /*border: 2px solid black;   */
+}
+
+form {
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 10px;
+    /*border: 2px solid black;*/
+}
+input.srchBar {
+    display: block;
+    width: 55%;
+    margin: 0 auto;
+
+}
+
+.buttons {
+    margin: 0 auto;
+    border: 2px solid black;
+}
+
+input.srchBtn {
+    display: inline-block;
+    margin: 0 auto;
+    margin-top:10px;
+    border: 2px solid black;
+}
