@@ -1,7 +1,7 @@
 body {
     height: 630px;
     width: 1339px;
-    /*border: 2px dotted black;*/
+    
 }
 
 main {
@@ -24,7 +24,7 @@ img {
     height: 92px;
     margin: 0 auto;
     padding-bottom: 10px;
-    /*border: 2px solid black;   */
+    
 }
 
 form {
@@ -32,7 +32,7 @@ form {
     width: 50%;
     margin: 0 auto;
     padding-top: 10px;
-    /*border: 2px solid black;*/
+   
 }
 input.srchBar {
     display: block;
@@ -43,12 +43,15 @@ input.srchBar {
 
 .buttons {
     margin: 0 auto;
-    border: 2px solid black;
+
 }
 
-input.srchBtn {
-    display: inline-block;
-    margin: 0 auto;
+input.leftBtn {
     margin-top:10px;
-    border: 2px solid black;
+    margin-left: 35%;
+}
+
+input.rightBtn {
+    margin-top:10px;
+    margin-right: 25%;
 }
